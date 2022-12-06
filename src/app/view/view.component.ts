@@ -12,7 +12,7 @@ export class ViewComponent {
     api.fetchEmployee().subscribe(
       (response)=>
       {
-        this.data=response
+        this.data=response;
       }
     )
   }
