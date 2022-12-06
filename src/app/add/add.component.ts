@@ -22,8 +22,8 @@ export class AddComponent {
   {
     let emp:any = {
       
-      "name":this.code,
-      "code":this.name,
+      "name":this.name,
+      "code":this.code,
       "designation":this.designation,
       "salary":this.salary,
       "companyName":this.companyName,
