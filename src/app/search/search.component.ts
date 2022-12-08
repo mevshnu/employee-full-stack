@@ -29,5 +29,14 @@ export class SearchComponent {
         }
       )
   }
-
+deletebtnclick=(id:any)=>
+{
+  let data:any={"id":id}
+  this.api.deleteemployee(data).subscribe(
+    (generater:any)=>
+    {
+      console.log=generater;
+    }
+  )
+}
 }
